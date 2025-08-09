@@ -55,6 +55,11 @@ https://github.com/user-attachments/assets/93e7bbb6-7a86-4adc-9027-b2037481749c
 
 
 
+
+https://github.com/user-attachments/assets/18bc9667-0fa7-498f-a2b6-70e25d9e435d
+
+
+
 <h2>Team Contributions</h2>
 <li>Gouri Lakshmi M S - created the speedtype page</li>
 <li>Anila Roy- created the ragepuzzle page</li>
