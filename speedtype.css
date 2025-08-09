@@ -1,0 +1,79 @@
+body {
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+#timer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#displayText {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#inputBox {
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+}
+
+.emoji {
+  position: absolute;
+  font-size: 2rem;
+  pointer-events: none;
+  animation: flyUp 2s ease-out forwards;
+}
+
+@keyframes flyUp {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1.5;
+  }
+  100% {
+    transform: translate(var(--xMove), var(--yMove)) scale(1.25);
+    opacity: 0;
+  }
+}
+
+/* Rage Bar Styling */
+#rageContainer {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 200px;
+  background: #333;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255,0,0,0.5);
+}
+
+#rageBar {
+  height: 0%;
+  width: 100%;
+  background: linear-gradient(180deg, red, orange, yellow);
+  box-shadow: 0 0 20px red, 0 0 40px orange;
+  transition: height 0.3s ease-in-out, background 0.3s;
+}
+
+#rageText {
+  position: fixed;
+  top: 150px;
+  right: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px black;
+}

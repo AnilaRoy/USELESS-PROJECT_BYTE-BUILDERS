@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rage Puzzle — Click & Drag Chaos (Multi-puzzle)</title>
+  <link rel="stylesheet" href="puzzle.css" />
+  <a href="index.html" style="position:absolute;top:20px;left:20px;color:white;text-decoration:none;font-weight:bold;">⬅ Back to Home</a>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>Rage Puzzle — Click & Drag Chaos</h1>
+      <div class="controls">
+        <label class="mode">
+          Mode
+          <select id="modeSelect">
+            <option value="tiles">Tile Drag Puzzle</option>
+            <option value="pairs">Match Pairs</option>
+          </select>
+        </label>
+        <button id="startBtn" class="btn primary">Start</button>
+        <button id="resetBtn" class="btn">Reset</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="game-panel">
+        <div id="boardWrapper" class="board-wrapper">
+          <!-- Puzzle board injected here -->
+        </div>
+
+        <div class="info">
+          <div class="stat">
+            <div class="label">Time</div>
+            <div id="time">00:00</div>
+          </div>
+          <div class="stat">
+            <div class="label">Moves / Attempts</div>
+            <div id="moves">0</div>
+          </div>
+          <div class="stat">
+            <div class="label">Accuracy</div>
+            <div id="accuracy">100%</div>
+          </div>
+          <div class="stat">
+            <div class="label">Twists Survived</div>
+            <div id="twists">0</div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <div class="panel">
+          <h3>Tutorial</h3>
+          <ul>
+            <li>Choose mode, press <strong>Start</strong>.</li>
+            <li>Tile Drag: drag tiles to reorder. Goal: restore order.</li>
+            <li>Match Pairs: click to flip cards and find pairs.</li>
+            <li>Mid-game chaos: board randomly jumbles and may <strong>switch puzzle sets</strong> mid-round — survive twists!</li>
+          </ul>
+        </div>
+
+        <div class="panel" id="resultPanel" hidden>
+          <h3>Result</h3>
+          <div id="resultText" class="result-text"></div>
+          <button id="playAgain" class="btn primary">Play Again</button>
+        </div>
+
+        <div class="panel">
+          <h3>Settings</h3>
+          <label>Difficulty
+            <select id="difficulty">
+              <option value="easy">Easy (3×3 / 6 pairs)</option>
+              <option value="medium" selected>Medium (4×4 / 8 pairs)</option>
+              <option value="hard">Hard (5×5 / 12 pairs)</option>
+            </select>
+          </label>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <small>Built for maximum mild frustration — have fun! 😈</small>
+    </footer>
+  </div>
+
+  <script src="puzzle.js"></script>
+  <!-- Review Modal -->
+
+
+</body>
+</html>
