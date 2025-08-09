@@ -39,6 +39,10 @@ Rage Typing & Memory Mayhem challenges your patience and adaptability, teaching 
 <img width="1899" height="844" alt="Screenshot 2025-08-09 164531" src="https://github.com/user-attachments/assets/6b9655c4-44f9-4782-8ec7-00662b8f5f5c" />
 
 
+
+
+
+
 <img width="1835" height="838" alt="Screenshot 2025-08-09 164724" src="https://github.com/user-attachments/assets/2e531818-b575-408f-877e-18962acdab17" />
 
 
@@ -46,6 +50,9 @@ Rage Typing & Memory Mayhem challenges your patience and adaptability, teaching 
 <img width="345" height="298" alt="image" src="https://github.com/user-attachments/assets/b023ebc4-2d9a-44f9-b3a9-29aa32196be0" />
 
 <h2> Video</h2>
+
+https://github.com/user-attachments/assets/93e7bbb6-7a86-4adc-9027-b2037481749c
+
 
 
 <h2>Team Contributions</h2>
