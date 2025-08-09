@@ -8,7 +8,7 @@ Team Members:
     
 <h2>PROJECT DESCRIPTION</h2>
 
-Rage Typing &amp;amp; Memory Mayhem throws you into a chaotic challenge where sentences scramble , emojis replace your typed words, and memory cards randomly swap or vanish mid-game. Can you keep up when everything’s constantly changing? Get ready to type, match, and rage like never before!
+Rage Typing & Memory Mayhem throws you into a chaotic challenge where sentences scramble , emojis replace your typed words, and memory cards randomly swap or vanish mid-game. Can you keep up when everything’s constantly changing? Get ready to type, match, and rage like never before!
 
 <h3>Problem:</h3>
 Just like in life, this game throws constant surprises at you — sentences scramble, words get replaced by emojis, memory cards shuffle unexpectedly. These interruptions mirror real-world chaos that disrupts your plans and tests your focus.
